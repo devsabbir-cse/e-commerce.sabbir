@@ -101,10 +101,10 @@ const CartBanner = () => {
             {categories.map((item, idx) => (
               <div
                 key={idx}
-                className="px-2 shrink-0"
+                className="px-1 shrink-0"
                 style={{ width: `${itemWidth}%` }}
               >
-                <div className="flex flex-col items-center bg-orange-600 text-white rounded-xl p-2 shadow-md cursor-pointer hover:scale-105 transition">
+                <div className="flex flex-col items-center bg-orange-600 text-white rounded-xl p-1 shadow-md cursor-pointer hover:scale-102 transition">
                   <div className="h-[110px] w-full relative rounded-xl overflow-hidden">
                     <Image src={item.img} alt={item.name} fill className="object-cover" />
                   </div>
