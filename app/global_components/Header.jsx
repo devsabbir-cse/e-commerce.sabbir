@@ -24,7 +24,7 @@ const Header = () => {
 
         {/* Logo */}
         <div>
-          <p>AmarShop</p>
+          <p className="text-3xl">AmarShop</p>
         </div>
 
         <div className="w-full mx-[200px] relative hidden lg:block">
