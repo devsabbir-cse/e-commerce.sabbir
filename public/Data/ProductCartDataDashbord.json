@@ -36,7 +36,7 @@
     "img": "/Banner/image4.png"
   },
     {
-    "id": 1,
+    "id": 5,
     "name": "Smart Watch",
     "price": 2500,
     "discount": "10%",
@@ -45,7 +45,7 @@
     "img": "/Banner/image1.png"
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "Headphone",
     "price": 1800,
     "discount": "5%",
@@ -54,7 +54,7 @@
     "img": "/Banner/image2.png"
   },
   {
-    "id": 3,
+    "id": 7,
     "name": "Camera",
     "price": 9500,
     "discount": "12%",
@@ -63,7 +63,7 @@
     "img": "/Banner/image3.png"
   },
   {
-    "id": 4,
+    "id": 8,
     "name": "Mobile",
     "price": 15000,
     "discount": "7%",
