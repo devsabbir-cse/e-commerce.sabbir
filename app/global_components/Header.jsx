@@ -11,7 +11,7 @@ const Header = () => {
 
   const li = "hover:font-bold text-2xl hover:bg-orange-700 pl-5 py-2 border-b ";
   return (
-    <div className="">
+    <div className="sticky top-0 z-20">
       {/* TOP BAR */}
       <div className="flex justify-between bg-orange-600 py-8 pl-3 pr-8 items-center text-white font-bold relative" >
         {/* Mobile Menu Icon */}
@@ -24,7 +24,7 @@ const Header = () => {
 
         {/* Logo */}
         <div>
-          <p className="text-3xl">AmarShop</p>
+          <p className="text-2xl">AmarShop</p>
         </div>
 
         <div className="w-full mx-[200px] relative hidden lg:block">
@@ -41,9 +41,9 @@ const Header = () => {
 
         {/* Icons */}
         <div className="flex gap-x-7">
-          <Heart size={30} />
+          <Heart size={28} />
           <div className="relative">
-            <ShoppingCart size={30} />
+            <ShoppingCart size={28} />
 
             <span className="absolute -top-4 -right-4 bg-white text-black text-sm font-bold rounded-full w-8 h-8 flex items-center justify-center">
               9
@@ -70,7 +70,7 @@ const Header = () => {
       </div>
 
       {/* MOBILE SEARCH BAR */}
-      <div className="flex gap-x-2 justify-between items-center mt-2 lg:hidden relative">
+      <div className="flex gap-x-2 justify-between items-center mt-[1px] lg:hidden relative">
         <input
             type="text"
             className="border-2 focus:border-3 bg-white w-full h-10 px-4 border-black focus:outline-none text-black font-medium text-base"
