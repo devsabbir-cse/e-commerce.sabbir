@@ -15,7 +15,7 @@ const Cart = () => {
     <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 py-3">
       {products.map((product,index) => (
         <div 
-        className="p-1 rounded-t-xl shadow-lg bg-white 
+        className="p-1 rounded-xl shadow-lg bg-white 
                      hover:shadow-2xl hover:-translate-y-2 
                      transition-all duration-300 cursor-pointer group"
         key={index} >
