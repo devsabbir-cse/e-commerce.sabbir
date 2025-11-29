@@ -100,7 +100,7 @@ const Cart = () => {
             </div>
 
             {showAddToCart ? (
-              <div className="bg-orange-600 hover:bg-orange-700 rounded-b-xl text-white h-12 flex items-center justify-center"
+              <div className="bg-orange-600 hover:bg-orange-700 rounded-b-xl text-white h-10 flex items-center justify-center"
                onClick={() => handleAddProduct(product.id)}>
                 <p className="font-bold text-lg">ADD TO CART</p>
               </div>
@@ -112,7 +112,7 @@ const Cart = () => {
                         onClick={() => handleDeleteCartProduct(product.id)} 
                         className="cursor-pointer text-white absolute -top-11 bg-orange-600/95 rounded-full w-10 h-10 p-2 right-0 hover:bg-orange-700"
                       />
-                  <div className="bg-orange-600 rounded-b-xl text-white px-2 h-12 flex items-center hover:bg-orange-700  ">
+                  <div className="bg-orange-600 rounded-b-xl text-white px-2 h-10 flex items-center hover:bg-orange-700  ">
                     
                       <div className="w-full flex px-2 gap-x-3 justify-between items-center text-center ">
                         <Minus 
