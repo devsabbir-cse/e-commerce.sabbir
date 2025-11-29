@@ -4,6 +4,25 @@ import Image from "next/image";
 
 const Cart = () => {
   const [products, setProducts] = useState([]);
+// State for cart products
+    const [cartProducts, setCartProducts] = useState({});
+
+    const handleAddProduct = (productId) => {
+    setCartProducts(prev => {
+        // আগের quantity নাও, আর +1 করো
+        const newQuantity = (prev[productId] || 0) + 1;
+        
+        // নতুন object তৈরি করো
+        const newCart = { ...prev, [productId]: newQuantity };
+
+        // console এ দেখাও JSON আকারে
+        console.log("Cart Status:", JSON.stringify(newCart, null, 2));
+
+        return newCart;
+    });
+    };
+
+
 
   useEffect(() => {
     fetch("/Data/ProductCartDataDashbord.json")
@@ -19,7 +38,7 @@ const Cart = () => {
                      hover:shadow-2xl hover:-translate-y-2 
                      transition-all duration-300 cursor-pointer group"
         key={index} >
-            <div 
+        <div 
           
           className=""
         >
@@ -61,7 +80,9 @@ const Cart = () => {
         </div>
 
         </div>
-        <div className="bg-orange-600 hover:bg-orange-700 rounded-b-xl ">
+        <div className="bg-orange-600 hover:bg-orange-700 rounded-b-xl "
+        onClick={()=> handleAddProduct(product.id)}
+        >
             <p className="py-2 text-center text-white font-bold text-lg">ADD TO CART</p>
           </div>
             
