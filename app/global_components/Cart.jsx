@@ -13,23 +13,25 @@ const Cart = () => {
 
   return (
     <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 py-3">
-      {products.map((product) => (
+      {products.map((product,index) => (
         <div 
-        key={product.id} >
-            <div 
-          
-          className="p-1 rounded-t-xl shadow-lg bg-white 
+        className="p-1 rounded-t-xl shadow-lg bg-white 
                      hover:shadow-2xl hover:-translate-y-2 
                      transition-all duration-300 cursor-pointer group"
+        key={index} >
+            <div 
+          
+          className=""
         >
 
           {/* Image Box */}
-          <div className="h-[200px] overflow-hidden ">
+          <div className="h-[200px] overflow-hidden relative">
             <Image 
               src={product.img}
-              width={500}
-              height={300}
+              
+              fill
               alt={product.name}
+              
               className="rounded-t-lg object-cover w-full h-full 
                          group-hover:scale-110 transition-all duration-500"
             />
