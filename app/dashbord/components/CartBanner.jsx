@@ -71,7 +71,7 @@ const CartBanner = () => {
   const itemWidth = 100 / visibleCount; // % width
 
   return (
-    <div className="mt-3 px-2 relative">
+    <div className="mt-3 relative">
         <div className="text-center">
             <h2 className="font-bold mb-3 border-b-4 border-orange-600/80 inline-block text-2xl pb-2">
                 Categories
