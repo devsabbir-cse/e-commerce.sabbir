@@ -85,13 +85,13 @@ const CartBanner = () => {
         {/* Left Arrow */}
         <button
           onClick={prevSlide}
-          className="absolute left-0 z-10 bg-orange-600/80 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 hover:scale-110 transition ml-1"
+          className="absolute left-0 z-10 bg-orange-600/80 text-white p-2 rounded-full shadow-lg hover:bg-orange-600 hover:scale-110 transition "
         >
           <MoveLeft strokeWidth={2.5} size={30} />
         </button>
 
         {/* Viewport */}
-        <div className="overflow-hidden w-full px-12">
+        <div className="overflow-hidden w-full px-1">
           <div
             className="flex transition-all duration-500"
             style={{
@@ -118,7 +118,7 @@ const CartBanner = () => {
         {/* Right Arrow */}
         <button
           onClick={nextSlide}
-          className="absolute right-0 z-10 bg-orange-600/80 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 hover:scale-110 transition mr-1"
+          className="absolute right-0 z-10 bg-orange-600/80 text-white p-2 rounded-full shadow-lg hover:bg-orange-600 hover:scale-110 transition "
         >
           <MoveRight strokeWidth={2.5} size={30} />
         </button>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Watch",
+    "price": 2500,
+    "discount": "10%",
+    "rating": "⭐⭐⭐⭐⭐",
+    "totalSale": 120,
+    "img": "/Banner/image1.png"
+  },
+  {
+    "id": 2,
+    "name": "Headphone",
+    "price": 1800,
+    "discount": "5%",
+    "rating": 4.2,
+    "totalSale": 80,
+    "img": "/Banner/image2.png"
+  },
+  {
+    "id": 3,
+    "name": "Camera",
+    "price": 9500,
+    "discount": "12%",
+    "rating": 4.8,
+    "totalSale": 40,
+    "img": "/Banner/image3.png"
+  },
+  {
+    "id": 4,
+    "name": "Mobile",
+    "price": 15000,
+    "discount": "7%",
+    "rating": 4.6,
+    "totalSale": 300,
+    "img": "/Banner/image4.png"
+  },
+    {
+    "id": 1,
+    "name": "Smart Watch",
+    "price": 2500,
+    "discount": "10%",
+    "rating": 4.5,
+    "totalSale": 120,
+    "img": "/Banner/image1.png"
+  },
+  {
+    "id": 2,
+    "name": "Headphone",
+    "price": 1800,
+    "discount": "5%",
+    "rating": 4.2,
+    "totalSale": 80,
+    "img": "/Banner/image2.png"
+  },
+  {
+    "id": 3,
+    "name": "Camera",
+    "price": 9500,
+    "discount": "12%",
+    "rating": 4.8,
+    "totalSale": 40,
+    "img": "/Banner/image3.png"
+  },
+  {
+    "id": 4,
+    "name": "Mobile",
+    "price": 15000,
+    "discount": "7%",
+    "rating": 4.6,
+    "totalSale": 300,
+    "img": "/Banner/image4.png"
+  }
+]
